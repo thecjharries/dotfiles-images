@@ -1,6 +1,6 @@
-LABEL   version=0.0.0
-
 FROM    fedora:27
+
+LABEL   version=0.0.1
 
 RUN     dnf update -y
 
